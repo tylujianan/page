@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '@/components/Hero'
-import {assets} from '../../../../assets/assets'
+import {assets} from '@/assets/assets'
 import { Metadata } from 'next'
 
 export const metadata:Metadata = {

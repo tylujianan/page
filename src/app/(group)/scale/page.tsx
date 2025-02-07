@@ -1,14 +1,16 @@
 import React from 'react'
 import Hero from '@/components/Hero'
-import {assets} from '../../../../assets/assets'
+import { assets } from '@/assets/assets'
 import { Metadata } from 'next'
 
-export const metadata:Metadata = {
+export const metadata: Metadata = {
   title: 'Scale'
 }
 
-export default function Scale() {
+export default async function Scale() {
   return (
-    <Hero imgUrl={assets.scale_image} altTxt="Scale" content='Scale'/>
+    <div>
+      <Hero imgUrl={assets.scale_image} altTxt="Scale" content='Scale' />
+    </div>
   )
 }
